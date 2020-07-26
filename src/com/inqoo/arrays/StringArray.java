@@ -1,7 +1,6 @@
 package com.inqoo.arrays;
 
 import java.util.Arrays;
-import java.util.Random;
 
 public class StringArray {
     public static void main(String[] args) {
