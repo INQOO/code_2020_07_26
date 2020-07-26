@@ -7,9 +7,7 @@ class PlanePrzemek implements MessageReceiver {
 
 
 
-    List<String> messages = new ArrayList<>() {
-
-    };
+    List<String> messages = new ArrayList<>();
 
     @Override
     public String getName() {
