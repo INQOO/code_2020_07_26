@@ -13,7 +13,7 @@ class PlanePrzemek implements MessageReceiver {
 
     @Override
     public String getName() {
-        return null;
+        return "Samolot xD";
     }
 
     @Override
