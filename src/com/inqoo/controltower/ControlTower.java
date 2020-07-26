@@ -13,6 +13,10 @@ class ControlTower implements MessageSender {
         System.out.println(name + " tower created.");
     }
 
+    public Set<MessageReceiver> getReceivers() {
+        return receivers;
+    }
+
     public void addReceiver(MessageReceiver receiver) {
         System.out.println("New receiver: " + receiver.getName());
         receivers.add(receiver);
@@ -24,9 +28,5 @@ class ControlTower implements MessageSender {
             receiver.saveMessage(message, level);
         }
 
-    }
-
-    public String getName() {
-        return name;
     }
 }
